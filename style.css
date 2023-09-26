@@ -137,7 +137,7 @@ h6 {
  
 /*Home Page */
 #hero{
-    background-image: url("pumpmm.jpg");
+    background-image: url("./img/pumpmm.jpg");
     width: 100%;
     height: 90vh;
     background-size: cover;
@@ -178,7 +178,7 @@ h6 {
 #feature{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -312,7 +312,7 @@ h6 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("logow.png");
+    background-image: url("./img/logow.png");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -327,7 +327,7 @@ h6 {
 
 #banner h2{
 color: #ffff;
-font-size: 30px;
+font-size: 25px;
 padding: 10px 0;
 }
 
@@ -352,7 +352,7 @@ padding: 10px 0;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url("ppp1.jpg");  
+    background-image: url("./img/ppp1.jpg");  
     min-width: 500px;
     height: 50vh;
     background-size: cover;
@@ -366,7 +366,7 @@ padding: 10px 0;
     justify-content: center;
     align-items: flex-start;
     text-align: center;*/
-    background-image: url("ppp.jpg");  
+    background-image: url("./img/ppp.jpg");  
  /*   min-width: 500px;
     height: 50vh;
     background-size: cover;
@@ -412,7 +412,7 @@ padding: 10px 0;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url("pppp.jpg");  
+    background-image: url("./img/pppp.jpg");  
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -422,11 +422,11 @@ padding: 10px 0;
 }
 
 #banner3 .banner-box2{
-    background-image: url("pppp2.jpg");
+    background-image: url("./img/pppp2.jpg");
 }
 
 #banner3 .banner-box3{
-    background-image: url("pppp3.jpg");
+    background-image: url("./img/pppp3.jpg");
 }
 
 #banner3 h2{
@@ -544,6 +544,7 @@ footer .install .row img{
 
 footer .install img{
     margin: 10px 0 15px 0;
+    width: 100%;
 }
 
 footer .follow i:hover,
@@ -558,7 +559,7 @@ footer .copyright{
 
 /* Shop page*/
 #page-header{
-    background-image: url("shoppp.jpg");
+    background-image: url("./img/shoppp.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -655,7 +656,7 @@ footer .copyright{
 /* Blog page*/
 
 #page-header.blog-header{
-    background-image: url("shopp.jpg");
+    background-image: url("./img/shopp.jpg");
 }
 
 #blog{
@@ -724,7 +725,7 @@ footer .copyright{
 /* About Page*/
 
 #page-header.about-header{
-    background-image: url("banner.jpg");
+    background-image: url("./img/banner.jpg");
 }
 
 #about-head{
@@ -985,7 +986,10 @@ footer .copyright{
 @media (max-width:799px) {
     
     .section-p1{
-        padding: 40px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     
     #navbar{
@@ -1036,8 +1040,8 @@ footer .copyright{
     }
 
     #hero{
-        height: 70vh;
-        padding: 0 80px;
+        /* height: 70vh; */
+        /* padding: 0 80px; */
         background-position: top 30% right 30%;
     }
 
